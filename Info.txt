@@ -8,27 +8,27 @@ This file documents the installation steps, libraries used, and other setup inst
 npm install @mui/material @emotion/react @emotion/styled lucide-react numeral date-fns axios recharts react-dnd react-dnd-html5-backend gantt-task-react@0.3.9 @mui/x-data-grid 
 ```
 
-🧱 UI Components & Styling
-> @mui/material – Provides pre-styled, accessible UI components based on Google’s Material Design for faster development.
-> @mui/x-data-grid – Offers high-performance, feature-rich data tables with sorting, filtering, and pagination.
-> @emotion/react – Enables powerful runtime styling in JavaScript, essential for MUI's styling engine.
-> @emotion/styled – Lets you write styled-components-style CSS using Emotion for modular, scoped styles.
-> lucide-react – Lightweight icon library offering scalable and consistent SVG icons for modern UIs.
+   🧱 UI Components & Styling
+      > @mui/material – Provides pre-styled, accessible UI components based on Google’s Material Design for faster development.
+      > @mui/x-data-grid – Offers high-performance, feature-rich data tables with sorting, filtering, and pagination.
+      > @emotion/react – Enables powerful runtime styling in JavaScript, essential for MUI's styling engine.
+      > @emotion/styled – Lets you write styled-components-style CSS using Emotion for modular, scoped styles.
+      > lucide-react – Lightweight icon library offering scalable and consistent SVG icons for modern UIs.
 
-📆 Date & Number Utilities
-> date-fns – Offers simple, performant utilities for formatting, parsing, and manipulating dates in JavaScript.
-> numeral – Formats numbers into readable currency, percentages, and other custom display styles.
+   📆 Date & Number Utilities
+      > date-fns – Offers simple, performant utilities for formatting, parsing, and manipulating dates in JavaScript.
+      > numeral – Formats numbers into readable currency, percentages, and other custom display styles.
 
-🌐 API & Data Handling
-> axios – A promise-based HTTP client to interact with REST APIs efficiently.
+   🌐 API & Data Handling
+      > axios – A promise-based HTTP client to interact with REST APIs efficiently.
 
-📊 Data Visualization
-> recharts – Simplifies creation of customizable charts like bar, line, and pie using reusable React components.
-> gantt-task-react@0.3.9 – Adds interactive Gantt chart components to visualize project timelines and tasks.
+   📊 Data Visualization
+      > recharts – Simplifies creation of customizable charts like bar, line, and pie using reusable React components.
+      > gantt-task-react@0.3.9 – Adds interactive Gantt chart components to visualize project timelines and tasks.
 
-🖱️ Drag & Drop Functionality
-> react-dnd – Provides a flexible and performant drag-and-drop system for complex UI interactions.
-> react-dnd-html5-backend – Enables browser support for react-dnd using the native HTML5 drag-and-drop API.
+   🖱️ Drag & Drop Functionality
+      > react-dnd – Provides a flexible and performant drag-and-drop system for complex UI interactions.
+      > react-dnd-html5-backend – Enables browser support for react-dnd using the native HTML5 drag-and-drop API.
 
 ## 📁 Dev Dependencies to Install
 
@@ -36,26 +36,26 @@ npm install @mui/material @emotion/react @emotion/styled lucide-react numeral da
 npm install -D @types/node @types/uuid @types/numeral tailwindcss postcss autoprefixer prettier prettier-plugin-tailwindcss tailwind-merge
 ```
 
-🧠 TypeScript Type Definitions
-> @types/node – Provides Node.js type definitions for TypeScript (used in backend, tooling, or scripts).
-> @types/uuid – Adds TypeScript support to the uuid package for generating typed unique IDs.
-> @types/numeral – Enables TypeScript compatibility for the numeral number formatting library.
+   🧠 TypeScript Type Definitions
+      > @types/node – Provides Node.js type definitions for TypeScript (used in backend, tooling, or scripts).
+      > @types/uuid – Adds TypeScript support to the uuid package for generating typed unique IDs.
+      > @types/numeral – Enables TypeScript compatibility for the numeral number formatting library.
 
-🎨 Code Formatting & Style Tools
-> prettier – Opinionated code formatter to maintain consistent coding style across your project.
-> prettier-plugin-tailwindcss – Plugin for Prettier that auto-sorts Tailwind CSS classes based on config for better readability.
+   🎨 Code Formatting & Style Tools
+      > prettier – Opinionated code formatter to maintain consistent coding style across your project.
+      > prettier-plugin-tailwindcss – Plugin for Prettier that auto-sorts Tailwind CSS classes based on config for better readability.
 
-🌈 Tailwind CSS Utility Enhancer
-> tailwindcss – Utility-first CSS framework that allows rapid styling directly in HTML or JSX classes.
-> postcss – CSS processor that transforms styles using plugins, required to run Tailwind properly.
-> autoprefixer – PostCSS plugin that adds vendor prefixes automatically to CSS rules for browser compatibility.
-> tailwind-merge – Utility that intelligently merges Tailwind CSS classes and removes conflicting ones (e.g., px-2 px-4 → px-4).
+   🌈 Tailwind CSS Utility Enhancer
+      > tailwindcss – Utility-first CSS framework that allows rapid styling directly in HTML or JSX classes.
+      > postcss – CSS processor that transforms styles using plugins, required to run Tailwind properly.
+      > autoprefixer – PostCSS plugin that adds vendor prefixes automatically to CSS rules for browser compatibility.
+      > tailwind-merge – Utility that intelligently merges Tailwind CSS classes and removes conflicting ones (e.g., px-2 px-4 → px-4).
 
 ## 🏗️ Project Setup Steps
 
-- remove content from src > app > page.tsx
-- remove content from src > app > global.css
-- create client > [.prettierrc]
+   - remove content from src > app > page.tsx
+   - remove content from src > app > global.css
+   - create client > [.prettierrc]
 
 
 📝 Notes
